@@ -55,13 +55,15 @@ Trage dort deinen API-Key wie folgt ein:
 OPENAI_API_KEY=sk-...dein-api-key...
 ```
 Wichtig: Lade diese Datei niemals öffentlich hoch.
+
 Nutze stattdessen die Datei .env.example als Vorlage.
 
 ### 4. Schriftart (DejaVu) hinzufügen
 Für Umlaute und Sonderzeichen wird eine Unicode-fähige Schrift benötigt:
 
 Lade DejaVuSans.ttf herunter:
- https://dejavu-fonts.github.io/Download.html
+
+https://dejavu-fonts.github.io/Download.html
 
 Lege sie in denselben Ordner wie das Skript crystaldisk_report.py
 
@@ -86,7 +88,6 @@ CrystalDisk_Bericht_GPT4o.pdf
 ```
  Projektstruktur
 ```text
-
 ├── crystaldisk_report.py
 ├── .env.example
 ├── .gitignore
@@ -97,7 +98,6 @@ CrystalDisk_Bericht_GPT4o.pdf
  ```
 Inhalt der requirements.txt
 ```text
-
 openai>=1.3.0
 python-dotenv
 fpdf2>=2.7.6
