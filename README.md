@@ -52,11 +52,11 @@ Erstelle eine Datei namens .env im Projektordner.
 Trage dort deinen API-Key wie folgt ein:
 
 ```env
-
 OPENAI_API_KEY=sk-...dein-api-key...
- Wichtig: Lade diese Datei niemals öffentlich hoch.
-Nutze stattdessen die Datei .env.example als Vorlage.
 ```
+Wichtig: Lade diese Datei niemals öffentlich hoch.
+Nutze stattdessen die Datei .env.example als Vorlage.
+
 ### 4. Schriftart (DejaVu) hinzufügen
 Für Umlaute und Sonderzeichen wird eine Unicode-fähige Schrift benötigt:
 
@@ -70,8 +70,9 @@ Speichere einen Screenshot von CrystalDiskInfo als .png
 
 Der Dateiname sollte mit CrystalDiskInfo_ beginnen, z. B.:
 
-text
+```text
 CrystalDiskInfo_20250706_104422.png
+```
 Lege die Datei in denselben Ordner wie das Skript
 
 ### 6. Skript ausführen
@@ -80,11 +81,11 @@ python crystaldisk_report.py
 ```
  Danach wird automatisch eine PDF erstellt:
 
-text
+```text
 CrystalDisk_Bericht_GPT4o.pdf
-
+```
  Projektstruktur
-text
+```text
 
 ├── crystaldisk_report.py
 ├── .env.example
@@ -93,11 +94,12 @@ text
 ├── README.md
 ├── DejaVuSans.ttf
 ├── CrystalDiskInfo_*.png  # Screenshot-Datei
- 
+ ```
 Inhalt der requirements.txt
-text
+```text
 
 openai>=1.3.0
 python-dotenv
 fpdf2>=2.7.6
 Pillow
+```
