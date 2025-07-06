@@ -72,7 +72,7 @@ Speichere einen Screenshot von CrystalDiskInfo als .png
 
 Der Dateiname sollte mit CrystalDiskInfo_ beginnen, z. B.:
 
-```text
+```
 CrystalDiskInfo_20250706_104422.png
 ```
 Lege die Datei in denselben Ordner wie das Skript
@@ -83,11 +83,11 @@ python crystaldisk_report.py
 ```
  Danach wird automatisch eine PDF erstellt:
 
-```text
+```
 CrystalDisk_Bericht_GPT4o.pdf
 ```
  Projektstruktur
-```text
+```
 ├── crystaldisk_report.py
 ├── .env.example
 ├── .gitignore
@@ -97,7 +97,7 @@ CrystalDisk_Bericht_GPT4o.pdf
 ├── CrystalDiskInfo_*.png  # Screenshot-Datei
  ```
 Inhalt der requirements.txt
-```text
+```
 openai>=1.3.0
 python-dotenv
 fpdf2>=2.7.6
